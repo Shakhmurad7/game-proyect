@@ -9,7 +9,7 @@ btn.addEventListener('click' , function(e){
     console.log(e.target.tagName);
   
   if(input.value === ``){
-    alert(`xahis edirik soz yazin`)
+    alert(`zehmet olmasa inputu doldurun`)
   }
   else{
     let p = document.createElement('p')
